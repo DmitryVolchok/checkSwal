@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+    <head></head>
+    <body>
+        <style type="text/css">
+        .block {
+            display: flex;
+            flex-direction: column;
+            width: auto;
+            height: auto;
+            background-color: aliceblue;
+            margin-top: 1%;
+            justify-content: center;
+        }
+        .codeblock {
+            font-size:25px; 
+            color:brown;
+        }
+        p{
+            font-size: 18px;
+        }
+        </style>
+        <div class="block">
+            <h1>Переменные</h1></td>
+            <h2>Объявление</h2></td>
+            <p>В старых скриптах вы также можете найти другое ключевое слово: var вместо let:
+                <p class="codeblock">var message = 'Hello';</p>
+                Ключевое слово var – почти то же самое, что и let. Оно объявляет переменную, но немного по-другому, «устаревшим» способом.                
+                Есть тонкие различия между let и var, но они пока не имеют для нас значения. Мы подробно рассмотрим их в главе Устаревшее ключевое слово "var".</p>
+            <p>Чтобы объявить константную, то есть, неизменяемую переменную, используйте const вместо let:
+
+                <p class="codeblock">const myBirthday = '18.04.1982';</p>
+                Переменные, объявленные с помощью const, называются «константами». Их нельзя изменить. Попытка сделать это приведёт к ошибке:                
+                <p class="codeblock">const myBirthday = '18.04.1982';</p>                
+                myBirthday = '01.01.2001'; // ошибка, константу нельзя перезаписать!
+                Если программист уверен, что переменная никогда не будет меняться, он может гарантировать это и наглядно донести до каждого, объявив её через const.</p>    
+            </div>
+        <div class="block">
+            <h1>заголовок</h1>
+        </div>
+        <div class="block">
+            <h1>заголовок</h1>
+        </div>
+        <div class="block">
+            <h1>заголовок</h1>
+        </div>
+        <div class="block">
+            <h1>заголовок</h1>
+        </div>
+    </body>
+</html>
